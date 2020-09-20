@@ -1,3 +1,5 @@
+/***************TAG SELECTORS*************/
+
 body {
     background-color: rgb(160, 161, 144);
 }
@@ -11,10 +13,6 @@ hr {
     border-color: papayawhip;
 }
 
-img {
-    border-radius: 50%;
-}
-
 h1 {
     font-style: italic;
     color: rgb(202, 228, 210);
@@ -24,4 +22,20 @@ h3 {
     font-style: italic;
     color: rgb(202, 228, 210);
     ;
+}
+
+/***************CLASS-SELECTORS*************/
+
+.profile-pic {
+    border-radius: 50%;
+    background-color: green;       
+}
+
+
+/***************ID-SELECTORSS*************/
+
+#heading {
+    color: rgb(233, 223, 203);
+    font-style: italic;
+    font-family: cursive;
 }
