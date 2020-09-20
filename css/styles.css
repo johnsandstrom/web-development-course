@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(160, 161, 144);
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    height: 0px;
+    width: 10%;
+    border-color: papayawhip;
+}
+
+img {
+    border-radius: 50%;
+}
+
+h1 {
+    font-style: italic;
+    color: rgb(202, 228, 210);
+}
+
+h3 {
+    font-style: italic;
+    color: rgb(202, 228, 210);
+    ;
+}
