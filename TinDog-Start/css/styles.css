@@ -3,12 +3,22 @@ body {
 }
 
 #title {
-    background-color: #ff4c68;
-    color: #fff;
+    background-color: #233e8b;
+    color: #ffffff;
+}
+
+.title_row {
+    text-align: center;
+}
+
+.title_navbar {
+    padding: 0 0 0;
+    text-align: justify;
+
 }
 
 .container-fluid {
-    padding: 3% 15% 7%;
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,7 +35,7 @@ p {
 
 /* Headings */
 .big-heading {
-    font-family: "Montserrat-Black";
+    font-family: 'Great Vibes', cursive; 
     font-size: 3.5rem;
     line-height: 1.5;
 }
@@ -35,21 +45,31 @@ p {
     line-height: 1.5;
 }
 
-
+.heading-date {
+    color: #ffffff;
+    font-family: 'Great Vibes', cursive; 
+    font-size: 250%;
+    margin-bottom: 100px;
+}
 /* Navigation Bar */
 
+.navbar_stuff {
+    text-align: center;
+}
+
 .navbar {
-    padding: 0 0 4.5rem;
+    padding: 0 0 0rem;
 }
 
 .navbar-brand {
-    font-family: "Ubuntu";
+    font-family: 'Great Vibes', cursive; 
     font-size: 2.5rem;
-    font-weight: bold;
+    margin-left:220px;
 }
 
 .nav-item {
-    padding: 0 18px;
+    padding: 10px 188px;
+    text-color: #f4eee8;
 }
 
 .nav-link {
@@ -76,7 +96,7 @@ p {
 
 #features {
     padding: 7% 15%;
-    background-color: white;
+    background-color: #f4eee8;
     position: relative;
 }
 
@@ -188,4 +208,3 @@ p {
         transform: rotate(0);
     }
 }
-
